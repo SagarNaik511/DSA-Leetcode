@@ -20,6 +20,6 @@ class Solution {
             }
             set.add(nums[i]);
         }
-        return -1;
+        return 0;
     }
 }
