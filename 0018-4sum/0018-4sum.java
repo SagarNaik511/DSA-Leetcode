@@ -1,3 +1,5 @@
+//O(n^3) -> for i for j while
+//O(1)
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> ans = new ArrayList<>();
