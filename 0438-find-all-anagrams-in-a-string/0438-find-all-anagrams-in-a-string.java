@@ -1,3 +1,8 @@
+// Build pMap       → O(m)
+// Sliding window   → O(n)
+// Map comparison   → O(n) × O(1)
+//                          ↓
+// Overall          → O(n + m)
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> ans = new ArrayList<>();
